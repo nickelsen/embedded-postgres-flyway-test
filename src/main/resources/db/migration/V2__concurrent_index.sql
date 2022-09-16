@@ -1,0 +1,1 @@
+CREATE INDEX CONCURRENTLY IF NOT EXISTS test_id ON "test" ("id");
