@@ -10,6 +10,6 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "io.zonky.test" % "embedded-postgres" % "2.0.1",
       "io.zonky.test.postgres" % "embedded-postgres-binaries-darwin-amd64" % "12.5.0-1" % Runtime,
-      "org.flywaydb" % "flyway-core" % "9.0.3",
+      "org.flywaydb" % "flyway-core" % "9.1.2",
     )
   )
